@@ -1,0 +1,83 @@
+div.jump {
+	color: cyan;
+	/*background: gray!important;*/
+	background-image: url(chair.jpg) !important;
+   -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+	
+}
+
+.curve{
+	border-radius: 50px !important;
+	background-color:cyan; 
+}
+
+.innercurve{
+	border-radius: 50px 50px 0px 0px !important ; 
+}
+.paddtop{
+	padding-top: 10px;
+}
+
+.outercurve{
+	border-radius: 0px 0px 50px 50px !important;
+}
+.padpop{
+	padding-top: 200px;
+	padding-left:100px!important;
+}
+
+#body {
+  background: url(bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.border-form{
+	border-color: #92a8d1 !important;
+	border-style: solid !important;
+	width: 200px !important;
+	border-radius: 15px 50px !important;
+	padding: 20px;
+	/*background: #73AD21;*/
+}
+
+.login-font{
+	font-weight: bolder;
+	color: brown;
+	font-size: 20px;
+}
+
+.lob_font{
+	font-family: Lobster;
+	color: #337ab7 !important;
+}
+
+.alert_pad {
+   margin-top: 12px !important;
+   margin-left: 10px !important;
+    }
+
+ .pad_logout{
+ 	padding-left: 1050px !important;
+ }
+
+
+
+ /*.carousel_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 300px;
+  max-width: none;
+}*/
+
+.carousel-img {
+        height: 500px;
+        width: 100%;
+        object-fit: contain;
+}
